@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3ed2318c-3cee-4506-a2ae-a78a5e6fd7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{c7c837cb-05d6-4c9b-bf2d-ea36e24ea52a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\src\mpglib\common.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\dct64_i386.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\decode_i386.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\interface.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\layer1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\layer2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\layer3.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mpglib\tabinit.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\src\mpglib\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\dct64_i386.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\decode_i386.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\huffman.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\interface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\l2tables.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\layer1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\layer2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\layer3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\mpg123.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\mpglib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mpglib\tabinit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
